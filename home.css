@@ -1,0 +1,102 @@
+body {
+    margin: 0px;
+    height: 100vh;
+}
+
+header {
+    font-size: 30px;
+    color: rgb(38, 38, 76);
+    height: 100px;
+    padding-top: 20px;
+}
+
+.hamburger{
+    display: none;
+}
+
+.nav {
+    height: 50px;
+    max-width: 100%;
+    margin: auto;
+    background-color: rgb(239, 238, 238);
+    margin-top: 20px;
+}
+
+header nav a {
+    font-size: 20px;
+    margin-right: 25px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: gray;
+}
+
+.split {
+    height: 300px;
+    width: 100%;
+}
+
+.img {
+    width: 100%;
+    height: 250px;
+}
+
+main {
+    margin: auto;
+    text-align: center;
+    max-width: 600px;
+}
+
+h1,
+h2 {
+    color: rgb(38, 38, 76);
+}
+
+.kvudaImg {
+    width: 280px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+button {
+    margin-top: 10px;
+    width: 90px;
+    background-color: rgb(38, 38, 76);
+    color: white;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: rgb(239, 238, 238);
+    height: 150px;
+    width: 100%;
+    color: gray;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+.text {
+    padding-top: 25px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+@media(max-width: 766px) {
+    header nav a {
+        font-size: 10px;
+    }
+
+    .nav {
+        padding-left: 15px;
+        
+    }
+    .split {
+        height: 250px;
+        width: 100%;
+    }
+
+}

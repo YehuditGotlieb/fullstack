@@ -1,0 +1,79 @@
+body {
+    background-image: url(/מטוסרקע1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.loginUp {
+    background-color: white;
+    height: 30px;
+}
+
+.box {
+    background-color: rgba(139, 139, 249, 0.228);
+    max-width: 400px;
+    height: 300px;
+    margin: auto;
+    margin-top: 150px;
+}
+
+input {
+    height: 25px;
+    width: 300px;
+}
+
+.main {
+    padding-top: 18px;
+    padding-bottom: 5px;
+    width: 210px;
+    height: 130px;
+    margin-left: 35px;
+
+}
+
+
+
+.button {
+    background-color: black;
+    width: 307px;
+    height: 30px;
+    color: white;
+    text-align: center;
+}
+
+a {
+    color: black;
+    font-size: 15px;
+
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width:766px) {
+    body {
+        background-image: url("/רקע.jpg");
+    }
+
+    .box {
+        margin: auto;
+        margin-top: 33%;
+    }
+
+    .loginUp {
+        margin: auto;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    .button {
+        width: 100%;
+    }
+
+
+}
